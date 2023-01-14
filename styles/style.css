@@ -26,7 +26,7 @@ body{
     max-height: 1322px;
     background: rgba(255, 144, 14, 0.1);
 }
-.btn {
+.btn{
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
@@ -73,8 +73,6 @@ body{
 
 /* main banner-section  */
 .banner-section{
-    text-align: center;
-    width: 100%;
 }
 .text-section h1{
     font-weight: 700;
@@ -93,13 +91,86 @@ body{
     padding: 24px;
     margin-bottom: 24px;
 }
+/* .text-section .btn{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    padding: 20px 25px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    margin-bottom: 50px;
+} */
 .img-sec img{
     height: 500px;
     width: 1050px;
     margin-bottom: 20px;
 }
 
+/* Features Area */
 
+.features-area{
+    display: flex;
+    justify-content: space-between;
+}
+.features-area .picture{
+    flex-basis: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.picture-list, img{
+    flex: 25%;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.feauter-info{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+/* .btn{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+} */
+.feauter-info h2{
+    font-size: 40px;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.feauter-info h2 .list-1{
+    font-weight: 500;
+    color: #727272;
+}
+.feauter-info h2 .list-2{
+    font-weight: 700;
+    color: #FF900E;
+}
+.feauter-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.feauter-info .btn{
+    padding: 10px;
+}
+
+
+.enjoy{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 40px 0;
+}
+.pic{
+    margin-right: auto;
+}
 
 
 
