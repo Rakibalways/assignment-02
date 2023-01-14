@@ -1,0 +1,108 @@
+/*===============================================
+* Custom CSS
+=================================================*/
+
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* Common Styles */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    list-style: 1.5em;
+}
+
+.container{
+    max-width: 1920px;
+    max-height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+.btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    padding: 20px 25px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+/* navigation style */
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.main-nav h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+    line-height: 53px;
+    margin-left: 200px;
+    padding: 50px;
+}
+.main-nav ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 220px;
+}
+.main-nav ul li a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+    text-decoration: none;
+}
+.main-nav ul li{
+    list-style: none;
+}
+
+/* main banner-section  */
+.banner-section{
+    text-align: center;
+    width: 100%;
+}
+.text-section h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    margin-top: 120px;
+}
+.text-section p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #727272;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+.img-sec img{
+    height: 500px;
+    width: 1050px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
