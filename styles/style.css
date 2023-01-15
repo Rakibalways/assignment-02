@@ -5,7 +5,9 @@
 /* font styles */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 
-/* Common Styles */
+/* ===========================
+Common Styles
+============================ */
 *,
 *::after,
 *::before{
@@ -27,7 +29,9 @@ body{
     padding: 1px;
 }
 
-/* nav section  */
+/* =============================
+nav section style
+==============================  */
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -52,7 +56,9 @@ nav a {
     color: black;
 }
 
-/* Banner section style  */
+/* ==========================
+Banner section style
+===========================  */
 
 .bng-container {
     padding: 25px;
@@ -81,12 +87,15 @@ nav a {
     border-radius: 8px;
     margin: 30px;
     margin-left: 550px;
+    cursor: pointer;
 }
 .bng-container img {
     width: 100%;
 }
 
-/* Features section style  */
+/* =============================
+Features section style
+==============================  */
 .container-list {
     display: flex;
     justify-content: space-evenly;
@@ -100,7 +109,6 @@ nav a {
     margin-top: 50px;
     margin-left: 200px;
 }
-
 .quick-article {
     margin: 0 50px;
     padding: 30px;
@@ -128,9 +136,13 @@ nav a {
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
+    cursor: pointer;
+
 }
 
-/* Features you will love & enjoy-style  */
+/* ============================
+Features you will love & enjoy style
+==============================  */
 .feature-container {
     display: flex;
     justify-content: space-evenly;
@@ -191,7 +203,9 @@ nav a {
     color: #ffffff;
 }
 
-/* Facts Section...  */
+/* ============================
+Facts Section style
+==============================  */
 .container-some-facts{
     margin-top: 70px;
     margin-left: 200px;
@@ -235,7 +249,9 @@ nav a {
     transition: 1.5s;
 }
 
-/* Sponsor Section */
+/* ==========================
+Sponsor Section
+============================ */
 .our-sponsor h1 {
     font-weight: 700;
     font-size: 45px;
@@ -260,7 +276,9 @@ nav a {
     color: #000000;
 }
 
-/* Bonus section  Our Advisor*/
+/* ==========================
+Bonus section  Our Advisor  style
+============================*/
 .advisor{
     margin: 20px 100px;
 }
@@ -301,11 +319,13 @@ nav a {
     padding: 20px 16px;
 }
 
-/* footer section */
+/* ===========================
+footer section
+============================ */
 
-footer{
+footer p{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 33px;
     text-align: center;
     color: #424242;
@@ -313,4 +333,21 @@ footer{
     background: #FFF4E7;
     padding: 20px 50px;
     border-radius: 8px;
+}
+
+
+/* ===============================
+Media Queries 
+=================================*/
+
+/* ----------------------------------------------------
+Mobile Devices
+-------------------------------------------------------- */
+@media screen and (max-width:688px) {
+    body{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
 }
